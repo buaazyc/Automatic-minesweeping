@@ -1,4 +1,4 @@
-# Automatic-minesweeping
+# Automatic-minesweeping（自动扫雷）
 Automatic minesweeping for Windows XP classic version minesweeper by Python3.7
 
 Operating environment:
