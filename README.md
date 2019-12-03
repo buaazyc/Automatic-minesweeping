@@ -1,6 +1,9 @@
 # Automatic-minesweeping（自动扫雷）
 Automatic minesweeping for Windows XP classic version minesweeper by Python3.7
 
+## 2.0
+在整理代码时，发现之前版本的代码太过于凌乱和丑陋（ps：虽然新版本的可能依然如此），于是重新写了一版，改动说大不大，说小不小，主要是结构性的改良和一些代码的优化，性能方面可能没有任何提升，只是看起来更加舒坦而已。
+
 ## Operating environment:  
 Windows 10  
 Python 3.7  
@@ -23,6 +26,7 @@ pywin32 223版本：用户获取窗口，使用鼠标键盘
 3. basic_operation.py封装了之前的类，实现了扫雷的基本操作，比如点击，插旗，重开等  
 4. game.py是脚本运行的主逻辑，进行循环遍历判断决策等。  
 5. surround.py定义了格子及其周边信息类，用于判断当前局势，方便决策  
+6. img_to_chessboard.py实现了图片信息到矩阵信息的转化  
 
 ## 使用：
 1. 配置环境  
