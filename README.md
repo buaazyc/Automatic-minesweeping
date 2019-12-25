@@ -1,12 +1,12 @@
 # Automatic-minesweeping（自动扫雷）
-Automatic minesweeping for Windows XP classic version minesweeper by Python3.7
+Automatic minesweeping for Windows XP classic version minesweeper by Python3.7  
+使用Python编写脚本，实现对经典扫雷游戏的程序自动完成游戏
 
 ## exe脚本使用方法：
-1. 配置环境  
-2. 运行扫雷  
-3. 运行game.py或者直接运行exe文件  
+1. 打开扫雷
+2. 运行exe脚本程序
 
-## My Operating environment:  
+## My Operating environment：
 Windows 10  
 Python 3.7  
 Windows经典的Minesweeper游戏  
