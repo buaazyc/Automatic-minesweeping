@@ -6,15 +6,25 @@ Automatic minesweeping for Windows XP classic version minesweeper by Python3.7
 1. 打开扫雷
 2. 运行exe脚本程序
 
+## 源码运行方式
+```shell
+python game.py
+```
+
 ## My Operating environment：
 Windows 10  
 Python 3.7  
-Windows经典的Minesweeper游戏  
+Windows经典的Minesweeper游戏
 
 ## Program requirement： 
 Numpy：用于矩阵运算  
 pillow：用于截图，根据截图判断每个格子内容  
-pywin32：用户获取窗口，使用鼠标键盘  
+pywin32：用户获取窗口，使用鼠标键盘
+```shell
+pip install numpy
+pip install pillow
+pip install pywin32
+```
 
 ## 主要思路：  
 1. 使用pywin32获取扫雷游戏的窗口，并模拟键盘鼠标操作进行点击和插旗  
@@ -28,3 +38,7 @@ pywin32：用户获取窗口，使用鼠标键盘
 3. basic_operation.py封装了之前的类，实现了扫雷的基本操作，比如点击，插旗，重开等  
 4. game.py是脚本运行的主逻辑，进行循环遍历判断决策等。  
 5. surround.py定义了格子及其周边信息类，用于判断当前局势，方便决策   
+
+## 遇到的问题：
+1. IndexError: list index out of range
+原因：似乎是屏幕分辨率设置了缩进导致，设置为100%即可（win10-右键-显示设置-缩放与布局-100%）
